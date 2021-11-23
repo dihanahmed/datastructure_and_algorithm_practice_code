@@ -17,9 +17,9 @@ int main()
 
 
 
-  map<string,int> :: iterator dihan;
-  for(dihan=ranklist.begin();dihan!=ranklist.end();dihan++){
-  cout<<dihan->first<<'\t'<<dihan->second<<endl;}
+  map<string,int> :: iterator itr;
+  for(itr=ranklist.begin();itr!=ranklist.end();itr++){
+  cout<<itr->first<<'\t'<<itr->second<<endl;}
 }
 
 
