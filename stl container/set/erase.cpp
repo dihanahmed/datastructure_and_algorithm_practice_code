@@ -31,7 +31,7 @@ int main()
     }cout<<endl;
 
 
-    st.erase(30);
+    st.erase(30);//if you pass the value , all the copy will be deleted
     for(int ros :st){
     cout<<ros<<" ";
     }
