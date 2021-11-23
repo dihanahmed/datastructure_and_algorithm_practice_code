@@ -12,10 +12,15 @@ int main()
   S.push(5);
   S.push(6);
   S.push(7);
-   cout<<S.size()<<" "<<S.top()<<endl;
-   S.pop();
-   cout<<S.size()<<" "<<S.top()<<endl;
+  // cout<<S.size()<<" "<<S.top()<<endl;
+ //  S.pop();
+ //  cout<<S.size()<<" "<<S.top()<<endl;
 
+    while(S.empty()==false){
+
+        cout<<S.top()<<" ";
+        S.pop();
+    }
 }
 
 
