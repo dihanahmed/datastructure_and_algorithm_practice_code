@@ -12,7 +12,7 @@ int main()
         int val = (cipher[i]-key[i]);
         if(val<0)
             val+=26;
-        char ans= 'A'+val;
+        char ans= 'A'+(val-1);
         cout<<ans;
     }
 }
